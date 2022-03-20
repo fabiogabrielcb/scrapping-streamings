@@ -1,0 +1,24 @@
+{
+  "name": "streaming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts"
+  },
+  "author": "Fábio Gabriel",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^16.11.7"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "firebase": "^9.5.0",
+    "mongoose": "^6.0.13",
+    "puppeteer": "^11.0.0",
+    "puppeteer-autoscroll-down": "^0.2.0",
+    "puppeteer-extra": "^3.2.3",
+    "puppeteer-extra-plugin-stealth": "^2.9.0"
+  }
+}
